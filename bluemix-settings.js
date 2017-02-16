@@ -51,7 +51,8 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: {
-    	PersonalityTextSummary: require('personality-text-summary')
+    	PersonalityTextSummary:require('personality-text-summary'),
+    	underscore:require('underscore')
     },
 
     storageModule: require("./couchstorage")

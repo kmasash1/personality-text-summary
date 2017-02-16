@@ -15,6 +15,7 @@
  * limitations under the License.
  **/
 
+/*globals personalityText:true */
 var path = require("path");
 var when = require("when");
 
@@ -51,7 +52,7 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: {
-    	personalityText = require("personality-text-summary")
+    	personalityText = require('personality-text-summary')
     },
 
     storageModule: require("./couchstorage")

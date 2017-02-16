@@ -1,3 +1,4 @@
+/*eslint-env node */
 /**
  * Copyright 2014, 2016 IBM Corp.
  *
@@ -49,7 +50,9 @@ var settings = module.exports = {
     // Serve up the welcome page
     httpStatic: path.join(__dirname,"public"),
 
-    functionGlobalContext: { },
+    functionGlobalContext: {
+    	personalityText = require("personality-text-summary")
+    },
 
     storageModule: require("./couchstorage")
 }

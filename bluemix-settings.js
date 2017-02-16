@@ -52,7 +52,8 @@ var settings = module.exports = {
 
     functionGlobalContext: {
     	PersonalityTextSummary:require('personality-text-summary'),
-    	underscore:require('underscore')
+    	underscore:require('underscore'),
+    	os:require('os')
     },
 
     storageModule: require("./couchstorage")

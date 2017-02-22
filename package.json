@@ -17,7 +17,7 @@
         "node-red-contrib-ibmpush":"0.x",
         "node-red-contrib-bluemix-hdfs":"0.x",
         "node-red-nodes-cf-sqldb-dashdb":"0.x",
-        "personality-text-summary":"1.0.2",
+        "personality-text-summary":"2.0.3",
         "geolib":"2.0.21"
     },
     "scripts": {
